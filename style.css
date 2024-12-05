@@ -1,0 +1,479 @@
+.grid_header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid_headd{
+    margin-left: 125px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 25px);
+}
+
+.squre{
+    border: solid 2px rgb(2, 217, 255);
+    padding-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.white_square{
+    font-size: 20px;
+}
+
+.grid_headd1{
+    grid-auto-flow: column;
+    margin-top: 40px;
+    margin-right: 140px;
+    display: grid;
+}
+
+.search{
+    border: solid 1px rgb(114, 114, 114);
+    background-color: rgb(236, 236, 236);
+    padding-right: 100px;
+    padding-left: 10px;
+    padding-top: 8px;
+    color: rgb(102, 102, 102);
+}
+
+.go{
+    background-color: rgb(2, 217, 255);
+    color: white;
+    text-align: center;
+    border: solid 1px rgb(114, 114, 114);
+    padding: 10px;
+}
+
+.grid_header1{
+    display: grid;
+    border: solid 1px rgb(114, 114, 114);
+    grid-template-columns: repeat(8, 1fr);
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 125px;
+    margin-right: 140px;
+}
+
+.grid_text{
+    background-color: rgb(2, 217, 255);
+    color: white;
+    padding: 8px;
+}
+
+.grid_text1{
+    background-color: rgb(236, 236, 236);
+    color: rgb(102, 102, 102);
+    padding: 8px;
+}
+
+.grid_header2{
+    display: grid;
+    border: solid 1px rgb(114, 114, 114);
+    margin-top: 60px;
+    margin-left: 125px;
+    margin-right: 140px;
+}
+
+.grid_cont{
+    grid-auto-flow: row;
+    display: grid;
+    padding-left: 40px;
+    padding-bottom: 100px;
+    background-color: rgb(199, 199, 199);
+    border: solid 1px rgb(114, 114, 114);
+}
+
+.cont_text{
+    font-size: 70px;
+}
+
+.cont_text1{
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+    padding-bottom: 100px;
+}
+
+.grid_cont1{
+    display: grid;
+    border: solid 1px rgb(114, 114, 114);
+    grid-auto-flow: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(240, 235, 235);
+}
+
+.grid_col1{
+    display: flex;
+    padding-left: 10px;
+}
+
+.t1{
+    text-align: start;
+    background-color: rgb(2, 217, 255);
+    color: white;
+    padding: 10px;
+}
+
+.text1{
+    font-size: 20px;
+    text-align: start;
+    color: rgb(2, 217, 255);
+    padding: 8px;
+}
+
+.grid_col2{
+    display: flex;
+    padding-left: 300px;
+}
+
+.t2{
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    padding: 10px;
+}
+
+.text2{
+    font-size: 20px;
+    text-align: start;
+    color: rgb(65, 65, 65);
+    padding: 8px;
+}
+
+.grid_col3{
+    display: flex;
+    padding-left: 300px;
+}
+
+.t3{
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    padding: 10px;
+}
+
+.text3{
+    font-size: 20px;
+    text-align: start;
+    color: rgb(65, 65, 65);
+    padding: 8px;
+}
+
+.grid_col4{
+    display: flex;
+    padding-left: 300px;
+}
+
+.t4{
+    text-align: end;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    padding: 10px;
+}
+
+.text4{
+    font-size: 20px;
+    text-align: end;
+    color: rgb(65, 65, 65);
+    padding: 8px;
+}
+
+.main{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid_main{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+}
+
+.blue_box{
+    border: solid 2px rgb(2, 217, 255);
+    background-color: rgb(2, 217, 255);
+    padding-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+}
+
+.text_box{
+    font-size: 20px;
+}
+
+.grid_main1{
+    grid-auto-flow: column;
+    margin-top: 40px;
+    margin-right: 140px;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    padding-right: 410px;
+}
+
+.blue_box1{
+    border: solid 2px rgb(2, 217, 255);
+    background-color: rgb(2, 217, 255);
+    padding-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+}
+
+.text_box1{
+    font-size: 20px;
+}
+
+.main1{
+    display: flex;
+}
+
+.cont_main{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    padding-right: 136px;
+}
+
+.gray_box{
+    border: solid 2px rgb(199, 199, 199);
+    background-color: rgb(199, 199, 199);
+    margin-right: 5px;
+    margin-left: 170px;
+}
+
+.gray_text{
+    color: rgb(102, 102, 102);
+    padding-left: 20px;
+}
+
+.cont_main1{
+    grid-auto-flow: column;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+}
+
+.gray_box1{
+    border: solid 2px rgb(199, 199, 199);
+    background-color: rgb(199, 199, 199);
+    margin-right: 5px;
+    margin-left: 170px;
+}
+
+.gray_text1{
+    color: rgb(102, 102, 102);
+    padding-left: 20px;
+}
+
+.main2{
+    display: grid;
+    grid-template-columns: repeat(3, 600px);
+}
+
+.grid_cont_main{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    padding-right: 100px;
+}
+
+.blue_cont{
+    border: solid 2px rgb(2, 217, 255);
+    background-color: rgb(2, 217, 255);
+    padding-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+}
+
+.text_cont{
+    font-size: 20px;
+}
+
+.grid_cont_main1{
+    grid-auto-flow: column;
+    margin-top: 40px;
+    margin-right: 140px;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    padding-right: 410px;
+}
+
+.blue_cont1{
+    border: solid 2px rgb(2, 217, 255);
+    background-color: rgb(2, 217, 255);
+    padding-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+}
+
+.text_cont1{
+    font-size: 20px;
+}
+
+.grid_cont_main2{
+    grid-auto-flow: column;
+    margin-top: 40px;
+    margin-right: 140px;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+}
+
+.blue_cont2{
+    border: solid 2px rgb(2, 217, 255);
+    background-color: rgb(2, 217, 255);
+    padding-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+}
+
+.text_cont2{
+    font-size: 20px;
+}
+
+.main3{
+    display: grid;
+    grid-template-columns: repeat(3, 600px);
+}
+
+.one_text{
+    color: rgb(102, 102, 102);
+    padding-left: 168px;
+}
+
+.one_text1{
+    color: rgb(102, 102, 102);
+    padding-left: 168px;
+}
+
+.tri_box_text{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    padding-right: 100px;
+}
+
+.tri_box1{
+    border: solid 2px rgb(199, 199, 199);
+    background-color: rgb(199, 199, 199);
+    margin-right: 65px;
+    margin-left: 165px;
+    padding-top: 60px;
+}
+
+.tri_text1{
+    padding-right: 100px;
+}
+
+.tri_box2{
+    border: solid 2px rgb(199, 199, 199);
+    background-color: rgb(199, 199, 199);
+    margin-top: 10px;
+    margin-right: 65px;
+    margin-left: 165px;
+    padding-top: 60px;
+}
+
+.tri_text2{
+    padding-right: 100px;
+    padding-top: 10px;
+}
+
+.tri_box3{
+    border: solid 2px rgb(199, 199, 199);
+    background-color: rgb(199, 199, 199);
+    margin-top: 10px;
+    margin-right: 65px;
+    margin-left: 165px;
+    padding-top: 60px;
+}
+
+.tri_text3{
+    padding-right: 100px;
+    padding-top: 10px;
+}
+
+.back{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    padding-right: 100px;
+}
+
+.back_box{
+    border: solid 2px rgb(2, 217, 255);
+    background-color: rgb(2, 217, 255);
+    padding-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-left: 170px;
+}
+
+.back_text{
+    font-size: 20px;
+}
+
+.grid_back{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    color: white;
+    padding-top: 20px;
+}
+
+.back1{
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    padding-left: 170px;
+}
+
+.text_back2{
+    padding-left: 100px;
+}
+
+.back2{
+    margin-right: 350px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 25px);
+}
+
+.squre1{
+    border: solid 2px white;
+    padding-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.white_square1{
+    font-size: 20px;
+}
+
+.p1{
+    color: rgb(190, 190, 190);
+}
+
+.back3{
+    display: grid;
+    grid-template-columns: repeat(3, 570px);
+    background-color: gray;
+    color: white;
+    padding-left: 170px;
+}
+
+.first_back{
+    color: rgb(190, 190, 190);
+}
+
+.second_back{
+    color: rgb(190, 190, 190);
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    padding-right: 150px;
+    padding-left: 30px;
+}
